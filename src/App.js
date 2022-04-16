@@ -5,6 +5,10 @@ import CardRFC from './Components/CardRFC';
 import BTLayOut from './Components/BTLayout/BTLayOut';
 import DataBinding from './DataBinding/DataBinding';
 import HandleEvent from './HandleEvent/HandleEvent';
+import StateDemo from './StateDemo/StateDemo';
+import DemoProps from './Props/Demo Props/Demo Props';
+import ShoesShop from './Props/ShoeShop/ShoesShop';
+import BaiTapXemChiTiet from './Props/BaiTapXemChiTiet/BaiTapXemChiTiet';
 
 function App() {
   return (
@@ -20,8 +24,11 @@ function App() {
 
 {/* <BTLayOut/> */}
 {/* <DataBinding/> */}
-<HandleEvent/>
-    
+{/* <HandleEvent/> */}
+    {/* <StateDemo/> */}
+    {/* <DemoProps/> */}
+    {/* <ShoesShop/> */}
+    <BaiTapXemChiTiet/>
     </div>
   );
 }
