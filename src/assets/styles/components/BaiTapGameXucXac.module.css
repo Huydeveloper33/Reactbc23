@@ -1,0 +1,13 @@
+/* Khi css ở 1 file css ngoài component thì ta đi theo đường tương đói */
+
+
+@font-face {
+  font-family: fontGame;
+  src: url(../../fonts/Pony.ttf);
+}
+.bg-game {
+  background-image: url(../../img/gameXucXac/bgGame.png);
+  width: 100wwh;
+  height: 100vh;
+  font-family: fontGame;
+}
